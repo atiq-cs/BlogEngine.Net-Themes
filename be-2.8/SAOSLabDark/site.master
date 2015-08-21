@@ -4,10 +4,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
-    <link href="<%# Page.ResolveUrl("~/themes/Standard/include/core.css") %>" rel="stylesheet"/>
-    <link href="<%# Page.ResolveUrl("~/themes/Standard/include/styles.min.css") %>" rel="stylesheet"/>
+    <link href="<%# Page.ResolveUrl("~/themes/SAOSDark/include/core.css") %>" rel="stylesheet"/>
+    <link href="<%# Page.ResolveUrl("~/themes/SAOSDark/include/styles.min.css") %>" rel="stylesheet"/>
     <link href='<%# Page.ResolveUrl("~/editors/tiny_mce_3_5_8/plugins/syntaxhighlighter/styles/shCore.css") %>' rel="stylesheet" />
-    <link href='<%# Page.ResolveUrl("~/editors/tiny_mce_3_5_8/plugins/syntaxhighlighter/styles/shThemeDefault.css") %>' rel="stylesheet" />
+    <link href='<%# Page.ResolveUrl("~/editors/tiny_mce_3_5_8/plugins/syntaxhighlighter/styles/shThemeRDark.css") %>' rel="stylesheet" />
     <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
     <link rel="shortcut icon" href="~/pics/blogengine.ico" type="image/x-icon" />
     <script type="text/javascript" src="<%# ShRoot %>scripts/XRegExp.js"></script>
@@ -78,7 +78,7 @@
                 </nav>
                 <div class="License">
                     <p class="ltr">
-                        Copyright &copy; <%=DateTime.Now.Year %> - Powered by <a href="http://dotnetblogengine.net" target="_blank">BlogEngine.NET</a> <%=BlogSettings.Instance.Version() %> - Theme by <a href="http://seyfolahi.net/" title="Web Designer - UI/UX" target="_blank">Farzin Seyfolahi</a>
+                        SAOS Managed Blog App (r10); Copyright SAOSLab &copy; <%=DateTime.Now.Year %>
                     </p>
                 </div>
             </div>
