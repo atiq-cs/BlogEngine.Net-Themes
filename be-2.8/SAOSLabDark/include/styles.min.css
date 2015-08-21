@@ -197,6 +197,7 @@ body { direction: ltr; background: #191919; color: #cccccc; font: 13px Arial, Ta
  /*border-bottom: 1px solid #0789c9;*/
 .tagcloud ul li         { display: inline-block; margin: 1px; }
 .tagcloud ul li A       { background: #191919; display:block; height:27px; line-height:25px; color: #0789c9; padding: 1px 7px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+/*.tagcloud ul li A:hover { background: #111111; color: #0799d9 !important; border-bottom: 1px solid #000; } background change perils in style*/
 .tagcloud ul li A:hover { background: #111111; border-bottom: 1px solid #000; }
 .tagcloud ul li A.biggest   {font-size: 120%;}
 .tagcloud ul li A.big       {font-size: 110%;}
