@@ -72,10 +72,13 @@ table { width: 100%; }
 
 /*[03.post]*/
 .post { background-color: #252525; padding: 2% 4% 4%; margin-bottom: 20px; border-radius: 6px; box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
-.post-body .text h3 { color: #cc6600; font-size: 19px; }
-.post-body .text h4 { color: #cc6600; font-size: 17px; }
-.post-body .text h5 { color: #cc6600; font-size: 15px; }
-.post-body .text h6 { color: #cc6600; font-size: 13px; }
+.post .post-body p#image   { margin-bottom: 15px; margin-top: 15px; text-align: center; }
+.post .post-body h3 { color: #cc6600; font-size: 19px; }
+.post .post-body h4 { color: #cc6600; font-size: 17px; }
+.post .post-body h5 { color: #cc6600; font-size: 15px; }
+.post .post-body h6 { color: #cc6600; font-size: 13px; }
+.post .post-body ol   { margin-bottom: 10px; list-style: decimal outside none; direction: ltr; padding: 0px 0px 0px 20px; }
+.post .post-body ul   { margin-bottom: 10px; list-style: square outside none; direction: ltr; padding: 0px 0px 0px 20px; }
 .post .post-header { margin-bottom: 15px; padding-bottom: 5px; border-bottom: 1px solid #03449B; }
 .post .post-header .post-title { line-height: 20px; font-size: 20px; margin: 15px 0 10px; }
 .post .post-header .post-title a { text-decoration: none; font-weight: bold; }
@@ -288,5 +291,5 @@ table { width: 100%; }
 .footer .widgets-footer .widget .widget-header { border-color: #0681ea; border-width: 2px; }
 .footer .widgets-footer .widget ul li { border-color: #111; }
 .footer .widgets-footer .widget:last-child { margin: 0; }
-.footer .end-line { min-height: 50px; background-color: #111; line-height: 50px; text-transform: uppercase; font-size: 12px; }
+.footer .end-line { min-height: 50px; background-color: #111; line-height: 50px; font-size: 12px; }
 .footer .end-line p { margin: 0; color: #AAA; }
