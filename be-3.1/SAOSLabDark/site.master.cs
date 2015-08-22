@@ -3,7 +3,7 @@ using System;
 using System.Text.RegularExpressions;
 using System.Web.UI;
 
-public partial class StandardSite : System.Web.UI.MasterPage
+public partial class SAOSLabDarkSite : System.Web.UI.MasterPage
 {
     private static Regex reg = new Regex(@"(?<=[^])\t{2,}|(?<=[>])\s{2,}(?=[<])|(?<=[>])\s{2,11}(?=[<])|(?=[\n])\s{2,}");
 
@@ -17,7 +17,7 @@ public partial class StandardSite : System.Web.UI.MasterPage
         // for supported of RTL languages
         if (Resources.labels.LangDirection.Equals("rtl", StringComparison.OrdinalIgnoreCase))
         {
-            var lc = new LiteralControl("<link href=\"" + Utils.RelativeWebRoot + "Custom/Themes/Standard/css/rtl.css\" rel=\"stylesheet\" />");
+            var lc = new LiteralControl("<link href=\"" + Utils.RelativeWebRoot + "Custom/Themes/SAOSLabDark/css/rtl.css\" rel=\"stylesheet\" />");
             HeadContent.Controls.Add(lc);
         }
 

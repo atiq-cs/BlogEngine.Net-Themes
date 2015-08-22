@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <metadata>
-    <id>Standard</id>
-    <description>Standard BlogEngine.NET theme</description>
-    <authors>Farzin Seyfolahi</authors>
-    <website>http://seyfolahi.net/</website>
-    <version>1.5.0</version>
+    <id>SAOSLabDark</id>
+    <description>SAOSLab BlogEngine.NET Dark theme</description>
+    <authors>SAOSLab</authors>
+    <website>http://tech.saoslab.com</website>
+    <version>3.1.0.1</version>
     <iconurl></iconurl>
 </metadata>
