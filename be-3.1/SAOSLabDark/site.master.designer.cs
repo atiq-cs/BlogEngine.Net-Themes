@@ -9,7 +9,7 @@
 
 
 
-public partial class StandardSite {
+public partial class SAOSLabDarkSite {
     
     /// <summary>
     /// HeadContent control.
