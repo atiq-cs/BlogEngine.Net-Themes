@@ -15,8 +15,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="~/pics/blogengine.ico" type="image/x-icon" />
-    <link href="~/scripts/syntaxhighlighter/styles/shCore.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="~/pics/saoslab.ico" type="image/x-icon" />
+    <link href="~/scripts/syntaxhighlighter/styles/shCoreRDark.css" rel="stylesheet" type="text/css" />
     <link href="~/scripts/syntaxhighlighter/styles/shThemeRDark.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="<%# ShRoot %>scripts/XRegExp.js"></script>
     <script type="text/javascript" src="<%# ShRoot %>scripts/shCore.js"></script>

@@ -2,10 +2,10 @@
     SAOSLabDark Theme - Version 1.0.0 (08/23/‎2015)
     http://dotnetblogengine.net/
 
-    Designed and Implementation by Farzin Seyfolahi (@Seyfolahi)
+    Modified by SAOSLab - Atiq Rahman
+
+    Based on Standard by Farzin Seyfolahi (@Seyfolahi)
     http://seyfolahi.net/
-    
-    Modified by SAOSLab
 
     Content:
         01.header                   15.categorylist
@@ -28,7 +28,7 @@
 
 body { line-height: 1.8; color: #cccccc; background-color: #191919; cursor: default; font-weight: 300; }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif !important; font-weight: 700; }
-h1, .h1 { font-size: 32px; }
+h1, .h1 { font-size: 32px; margin-top:0px;margin-bottom:10px; }
 h2, .h2 { font-size: 26px; }
 h3, .h3 { font-size: 20px; }
 h4, .h4 { font-size: 18px; }
@@ -97,16 +97,21 @@ table { width: 100%; }
 .comment-item .comment-content { border: 1px solid #252525; border-radius: 4px; padding: 2%; margin-bottom:10px !important }
 .comment-item .comment-gravatar { position: relative; }
 .comment-item .comment-gravatar img { border-radius: 4px; }
-.comment-item .comment-header { border-bottom: 1px solid #EEE; padding-bottom: 5px; }
-.comment-item .comment-header h4 { font-weight: bold; font-size: 18px; color: #333; }
+.comment-item .comment-header { border-bottom: 1px solid #022960; padding-bottom: 5px; }
+/* this is commenter name */
+.comment-item .comment-header h4 { font-weight: bold; font-size: 16px; color: #cccccc; }
 .comment-item .comment-header h4 a { color: #333; }
-/* It's me commenting*/
-.comment-item .comment-content.self { background-color: #303530; border-color: #c0e0b2 !important; }
-.comment-item .self .comment-header { border-bottom-color: #c0e0b2; }
+/* Reduce font size for comments, this is the way I like now */
+.comment-item p { font-size: 13px; }
+/* It's me commenting change background color and border color*/
+.comment-item .comment-content.self { background-color: #242424; border-color: #292929 !important; }
+.comment-item .self .comment-header { border-bottom-color: #022960; }
+/*This color is changed to match*/
 .comment-item .self .comment-header h4 a,
-.comment-item .self .comment-header h4 { color: #376f1d !important; }
+.comment-item .self .comment-header h4 { color: #afafaf !important; }
+/*this is odd and not required 
 .comment-item .self a { color: #74af5a; }
-.comment-item .self .comment-header .text-uppercase { color: #c0e0b2; }
+.comment-item .self .comment-header .text-uppercase { color: #c0e0b2; } */
 .comment-item .comment-form { border: 1px solid #03449B; margin: 15px 0; }
 .comment-item .carrow { background: url(../images/carrow.png) no-repeat 0 0; width: 9px; height: 17px; position: absolute; right: -11px; top: 14px; z-index: 999; }
 .comment-item .self .carrow { background: url(../images/sarrow.png) no-repeat 0 0 !important; }
@@ -118,7 +123,7 @@ table { width: 100%; }
 .comment-form .comment-menu { }
 .comment-form .comment-menu a { padding: 0 !important; }
 .comment-form .comment-menu a span { padding: 2px 7px; min-width: 70px; }
-.comment-form .comment-preview { height: auto !important; }
+.comment-form .comment-preview { height: auto !important; background: #272727; color: #cccccc; border: 1px solid #023980; }
 .comment-form .comment-preview .comment-content { border: none; }
 .comment-form .comment-preview .comment-header small { display: none; }
 
