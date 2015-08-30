@@ -4,7 +4,7 @@ Please have a look at the [main wiki](https://github.com/atiq-cs/be_themes/wiki)
 #### BlogEngine.net 2.8
 Contains essential SAOSLabDark theme files for be-2.8 inside directory
  - be-2.8/SAOSLabDark/
- - Experimental theme, test and let us know your feedback
+ - Experimental theme, running at [saoslab site](http://testbe28.saoslab.com/), test and let us know your feedback
 
 #### BlogEngine.net 3.1
  - Contains theme files for be-3.1

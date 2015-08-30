@@ -97,7 +97,7 @@ table { width: 100%; }
 .comment-item .comment-content { border: 1px solid #252525; border-radius: 4px; padding: 2%; margin-bottom:10px !important }
 .comment-item .comment-gravatar { position: relative; }
 .comment-item .comment-gravatar img { border-radius: 4px; }
-.comment-item .comment-header { border-bottom: 1px solid #022960; padding-bottom: 5px; }
+.comment-item .comment-header { border-bottom: 1px solid #022960; padding-bottom: 5px; padding-left: 5px; }
 /* this is commenter name */
 .comment-item .comment-header h4 { font-weight: bold; font-size: 16px; color: #cccccc; }
 .comment-item .comment-header h4 a { color: #333; }
